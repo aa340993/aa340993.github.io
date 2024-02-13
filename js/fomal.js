@@ -3174,10 +3174,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://img.onl/Fi2AAI);
-    --darkmode-bg:url(https://img.onl/9T8X8y);
-    --mobileday-bg: url(https://img.onl/v1Cu5p);
-    --mobilenight-bg: url(https://img.onl/yAj1iS);
+    --default-bg: url(https://cdn.discordapp.com/attachments/1202563102701391892/1206922821926785034/IMG_6041.jpg?ex=65ddc578&is=65cb5078&hm=608b7e02b57bbe3239889eeaae29c8d4abaf5d68f8fe443953984e2186d36dde&);
+    --darkmode-bg:url(https://cdn.discordapp.com/attachments/1202563102701391892/1206952895988240384/IMG_6045.jpg?ex=65dde17a&is=65cb6c7a&hm=280d1e24d3696ade1e2f9b38842f3dfa2cf8cd06187ff2c82e09b05f54e767e3&);
+    --mobileday-bg: url(https://cdn.discordapp.com/attachments/1202563102701391892/1206952896407535696/IMG_6046.jpg?ex=65dde17a&is=65cb6c7a&hm=f8f836fe97cc018162d46aaa926296144d5d5222b021bac493d0164fe505a6ca&);
+    --mobilenight-bg: url(https://cdn.discordapp.com/attachments/1202563102701391892/1206952896663654410/IMG_6047.jpg?ex=65dde17a&is=65cb6c7a&hm=f4e1018f1ca9557f029deb5a515cc49fa13fee33988c0827a8cd50ed79eaa2bd&);
   }`;
 }
 // 切换背景主函数
